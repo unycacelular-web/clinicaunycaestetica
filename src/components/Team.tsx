@@ -35,7 +35,7 @@ const teamMembers = [
     imagePosition: "center 20%",
   },
   {
-    name: "Braulio",
+    name: "Braulio Aguilera",
     role: "Film Maker",
     location: "",
     image: teamBraulioImg,
