@@ -32,7 +32,7 @@ const specialists = [
   {
     name: "Dr. Paulo Hvenegaard",
     role: "Cirurgião Plástico",
-    crm: "SBCP",
+    crm: "CRM-SP 32515 | SBCP",
     specialty: "Membro da Sociedade Brasileira de Cirurgia Plástica com mais de 40 anos de experiência. Especialista em Lifting Facial. Rejuvenescer sem perder a naturalidade.",
     instagram: "https://www.instagram.com/drpaulohvenegaard",
     image: drPauloImg,
@@ -88,6 +88,7 @@ const specialists = [
   {
     name: "Dra. Stella Catunda",
     role: "Ginecologista",
+    crm: "CRM-SP 166142 | RQE 65316",
     specialty: "Ginecologista pelo Hospital da Mulher - Pérola Byington. Pós-graduação em Ginecologia Endócrina e Mestrado em Climatério pela Unifesp.",
     instagram: "https://www.instagram.com/stellacatunda",
     image: draStellaImg,
