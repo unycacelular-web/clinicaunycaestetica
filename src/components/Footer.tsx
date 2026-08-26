@@ -116,9 +116,12 @@ const Footer = () => {
             </div>
           </div>
           
-          {/* Bottom Bar */}
-          <div className="mt-12 pt-8 border-t border-primary-foreground/10 text-center">
-            <p className="text-primary-foreground/60 text-sm">
+          {/* Technical Director & Bottom Bar */}
+          <div className="mt-12 pt-8 border-t border-primary-foreground/10 text-center space-y-2">
+            <p className="text-luxury-gold font-semibold text-sm">
+              Diretor Técnico da Clínica: Dr. Carlos Gaspar Jr — CRM-SP 140676 | RQE 80003
+            </p>
+            <p className="text-primary-foreground/60 text-xs">
               © {new Date().getFullYear()} Clínica Unyca Estética. Todos os direitos reservados.
             </p>
           </div>

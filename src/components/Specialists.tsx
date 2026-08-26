@@ -16,8 +16,9 @@ import dianeGuidoImg from "@/assets/diane-guido.jpg";
 
 const specialists = [
   {
-    name: "Dr. Carlos J. Gaspar Jr",
+    name: "Dr. Carlos Gaspar Jr",
     role: "Founder & Cirurgião Plástico",
+    crm: "CRM-SP 140676 | RQE 80003",
     specialty: "Membro da Sociedade Brasileira de Cirurgia Plástica. Especialista em Laser FOTONA e Cirurgias Plásticas Corporais, Lipoescultura, Abdominoplastia, Cirurgias das Mamas e Blefaroplastias.",
     instagram: "https://www.instagram.com/drgasparjr",
     image: drCarlosImg,
@@ -31,6 +32,7 @@ const specialists = [
   {
     name: "Dr. Paulo Hvenegaard",
     role: "Cirurgião Plástico",
+    crm: "SBCP",
     specialty: "Membro da Sociedade Brasileira de Cirurgia Plástica com mais de 40 anos de experiência. Especialista em Lifting Facial. Rejuvenescer sem perder a naturalidade.",
     instagram: "https://www.instagram.com/drpaulohvenegaard",
     image: drPauloImg,
@@ -44,6 +46,7 @@ const specialists = [
   {
     name: "Dra. Layanne",
     role: "Cirurgia Plástica",
+    crm: "CRM-SP 246349",
     specialty: "Especialista em Tratamento Avançado dos Glúteos. Estética Feminina em Geral, Harmonização Facial e Procedimentos Invasivos como Lipoaspirações.",
     instagram: "https://www.instagram.com/dralayannepaixao",
     image: draLayanneImg,
@@ -55,8 +58,9 @@ const specialists = [
     ]
   },
   {
-    name: "Dra. Rebeca",
+    name: "Dra. Rebeca Schramm",
     role: "Nutrologia",
+    crm: "CRM BA/SP 272914",
     specialty: "Especialista em Performance Corporal, Reposição Hormonal e Tratamentos de Emagrecimento com Mounjaro. Especialista em Tratamento de Lipedema.",
     instagram: "https://www.instagram.com/dralaizerebeca/",
     image: draRebecaImg,
@@ -68,8 +72,9 @@ const specialists = [
     ]
   },
   {
-    name: "Dr. Alexandre Palaro Braga",
+    name: "Dr. Alexandre Braga",
     role: "Otorrinolaringologista",
+    crm: "CRM-SP 207629 | RQE 109459",
     specialty: "Especialista em Rinologia e Cirurgias da Face com Ênfase em Rinoplastia. Chefe do Ambulatório de Rinologia e Plástica Facial do HCFMB Unesp.",
     instagram: "https://www.instagram.com/dralexandrebraga",
     image: drAlexandreImg,
@@ -122,6 +127,7 @@ const specialists = [
   {
     name: "Dra. Cris Silveira",
     role: "Nutrologia",
+    crm: "CRM 168331",
     specialty: "Especialista em Emagrecimento, Performance e Reposição Hormonal. Ex-atleta de Fisiculturismo, competiu no Mr Olympia.",
     instagram: "https://www.instagram.com/dracrissilveira",
     image: draCrisImg,
@@ -135,6 +141,7 @@ const specialists = [
   {
     name: "Dr. Luis Pascoal",
     role: "Dermatologista",
+    crm: "SBD - RQE 61491",
     specialty: "Especialista em Dermatologia pela AMB e SBD. Professor de Pós-Graduação e Convidado em Congressos Nacionais e Internacionais.",
     instagram: "https://www.instagram.com/drluispascoal",
     image: drLuisImg,
@@ -188,7 +195,7 @@ const specialists = [
 
 const Specialists = () => {
   return (
-    <section className="py-20 bg-background" data-publish-version="specialists-thays-removed-force-sync-2026-06-04-02">
+    <section className="py-20 bg-background" data-publish-version="specialists-crm-updated">
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
@@ -225,6 +232,11 @@ const Specialists = () => {
                       <p className="text-sm font-semibold text-luxury-gold uppercase tracking-wide">
                         {specialist.role}
                       </p>
+                      {specialist.crm && (
+                        <p className="text-xs font-semibold text-muted-foreground mt-1">
+                          {specialist.crm}
+                        </p>
+                      )}
                     </div>
                     <a 
                       href={specialist.instagram}
