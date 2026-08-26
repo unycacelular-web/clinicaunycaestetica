@@ -1,11 +1,35 @@
 import { Card, CardContent } from "@/components/ui/card";
-import teamAngelaImg from "@/assets/team-angela.jpg";
-import teamHelenImg from "@/assets/team-helen.jpg";
-import teamGabrielImg from "@/assets/team-gabriel.jpg";
+import teamMartaImg from "@/assets/team-marta.jpg";
+import teamOlindaImg from "@/assets/team-olinda.jpg";
+import teamIsadoraImg from "@/assets/team-isadora.jpg";
 import teamVivianeImg from "@/assets/team-viviane.jpg";
+import teamHelenImg from "@/assets/team-helen.jpg";
+import teamAngelaImg from "@/assets/team-angela.jpg";
+import teamGabrielImg from "@/assets/team-gabriel.jpg";
 import teamBraulioImg from "@/assets/team-braulio.jpg";
 
 const teamMembers = [
+  {
+    name: "Marta",
+    role: "Recepcionista",
+    location: "",
+    image: teamMartaImg,
+    imagePosition: "center 15%",
+  },
+  {
+    name: "Olinda",
+    role: "Agente de Higienização",
+    location: "",
+    image: teamOlindaImg,
+    imagePosition: "center 20%",
+  },
+  {
+    name: "Isadora",
+    role: "Enfermeira Instrumentadora",
+    location: "",
+    image: teamIsadoraImg,
+    imagePosition: "center 15%",
+  },
   {
     name: "Viviane",
     role: "Enfermeira e Instrumentadora Responsável",
@@ -14,17 +38,17 @@ const teamMembers = [
     imagePosition: "center 20%",
   },
   {
-    name: "Angela",
-    role: "Agente de Higienização",
-    location: "Alphaville",
-    image: teamAngelaImg,
-    imagePosition: "center 20%",
-  },
-  {
     name: "Helen",
     role: "Gerente Administrativo e Financeiro",
     location: "",
     image: teamHelenImg,
+    imagePosition: "center 20%",
+  },
+  {
+    name: "Angela",
+    role: "Agente de Higienização",
+    location: "Alphaville",
+    image: teamAngelaImg,
     imagePosition: "center 20%",
   },
   {
@@ -59,7 +83,7 @@ const Team = () => {
             </p>
           </div>
           
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
             {teamMembers.map((member, index) => (
               <Card 
                 key={index}
