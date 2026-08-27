@@ -9,8 +9,6 @@ import draDeniseImg from "@/assets/dra-denise.jpg";
 import draCarinaImg from "@/assets/dra-carina.jpg";
 import draCrisImg from "@/assets/dra-cris.jpg";
 import drLuisImg from "@/assets/dr-luis.jpg";
-import draJulianaImg from "@/assets/dra-juliana.jpg";
-import drGustavoImg from "@/assets/dr-gustavo.jpg";
 import drPauloImg from "@/assets/dr-paulo.jpg";
 import dianeGuidoImg from "@/assets/diane-guido.jpg";
 
@@ -102,6 +100,7 @@ const specialists = [
   {
     name: "Dra. Denise Medrado",
     role: "Esteticista e Nutricionista",
+    crm: "CRN-SP 59964",
     specialty: "Mais de 20 anos de experiência em Rejuvenescimento Facial com Tecnologias a Laser e Protocolos Estéticos Avançados. Acompanhamento Nutricional Clínico e Estético.",
     instagram: "https://www.instagram.com/denisemedrado_/",
     image: draDeniseImg,
@@ -151,32 +150,6 @@ const specialists = [
       "Especialista pela AMB e Sociedade Brasileira de Dermatologia",
       "Professor no Instituto BWS e Instituto Evolution",
       "Membro da Sociedade Brasileira de Dermatologia",
-    ]
-  },
-  {
-    name: "Dra. Juliana Rodante",
-    role: "Dermatologia",
-    specialty: "Especialista em Cuidados da Pele e Cabelos, com Especialização em Cosmiatria (Medicina Estética).",
-    instagram: "https://www.instagram.com/dra.jurodante",
-    image: draJulianaImg,
-    bio: [
-      "Médica pela UFMG",
-      "Pós-graduada (3 anos) em Dermatologia pela Faculdade BWS",
-      "Fellow em Cosmiatria pelo Instituto Boggio",
-      "Medicina que cuida da beleza com saúde e naturalidade",
-    ]
-  },
-  {
-    name: "Dr. Gustavo & Dr. Rafael Rojo",
-    role: "Instituto Odontológico GR",
-    specialty: "Especialistas em Transformar Vidas através do Sorriso com Lentes de Contato Dental de Porcelana Ultra Finas. Técnica Minimamente Invasiva sem Desgaste.",
-    instagram: "https://www.instagram.com/drgustavorojo",
-    image: drGustavoImg,
-    bio: [
-      "Irmãos especialistas em Odontologia Estética",
-      "Dr. Rafael: 7 anos de experiência em Milão, Itália",
-      "Técnica minimamente invasiva para lentes sem desgaste",
-      "Transformação do sorriso em apenas 2 sessões - Lente com Cara de Dente",
     ]
   },
   {
