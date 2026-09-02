@@ -114,14 +114,14 @@ const specialists = [
   {
     name: "Dra. Carina Guidi",
     role: "Fisioterapeuta Dermatofuncional",
-    specialty: "Especialista em Pré e Pós-operatório de Cirurgias Plásticas e Reparadoras. Protocolos Personalizados com Taping, Laser, Exercícios e Drenagem Linfática.",
+    specialty: "Reabilitação Fisioterapêutica dentro do Centro Cirúrgico e Pós-operatório. Acompanhamento semanal e protocolo individualizado para cada fase do pós-operatório, incluindo atuação desde o centro cirúrgico, com taping e terapia manual, além de exercícios específicos e recursos terapêuticos como laserterapia, ozonioterapia, ultrassom e radiofrequência, conforme avaliação, evolução e necessidade, em alinhamento com o cirurgião.",
     instagram: "https://www.instagram.com/dracarinaguidi.fisioterapia",
     image: draCarinaImg,
     bio: [
-      "Pós-graduada em Fisioterapia Dermatofuncional",
-      "Especialista em pré e pós-operatório",
-      "Praticante de atividades físicas e apaixonada por natação",
-      "Foco em recuperação segura, acolhedora e funcional",
+      "Reabilitação dentro do Centro Cirúrgico e Pós-operatório",
+      "Acompanhamento semanal e protocolo individualizado",
+      "Taping, terapia manual e exercícios específicos",
+      "Laserterapia, ozonioterapia, ultrassom e radiofrequência alinhados ao cirurgião",
     ]
   },
   {
