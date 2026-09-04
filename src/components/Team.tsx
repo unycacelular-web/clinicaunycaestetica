@@ -3,6 +3,7 @@ import teamMartaImg from "@/assets/team-marta.jpg";
 import teamOlindaImg from "@/assets/team-olinda.jpg";
 import teamIsadoraImg from "@/assets/team-isadora.jpg";
 import teamVivianeImg from "@/assets/team-viviane.jpg";
+import teamOsmarImg from "@/assets/team-osmar.jpg";
 import teamHelenImg from "@/assets/team-helen.jpg";
 import teamAngelaImg from "@/assets/team-angela.jpg";
 import teamGabrielImg from "@/assets/team-gabriel.jpg";
@@ -36,6 +37,13 @@ const teamMembers = [
     location: "",
     image: teamVivianeImg,
     imagePosition: "center 20%",
+  },
+  {
+    name: "Osmar Bicalho",
+    role: "Enfermeiro e Flebotomista",
+    location: "",
+    image: teamOsmarImg,
+    imagePosition: "center 15%",
   },
   {
     name: "Helen",
@@ -83,7 +91,7 @@ const Team = () => {
             </p>
           </div>
           
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-6">
             {teamMembers.map((member, index) => (
               <Card 
                 key={index}
